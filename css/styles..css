@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -131,11 +132,17 @@ header {
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
-.section-1 input[type=button] {
+.section-1 .button {
+  width: 300px;
   padding: 10px;
   background: -webkit-linear-gradient(rgba(36, 10, 234, 0.707), rgb(246, 5, 117));
   border: 0;
   border-radius: 20px;
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: all 0.3s; /* Animación */
+}
+.section-1 .button:hover {
+  transform: scale(1.2); /* Escalar el botón al pasar el cursor */
 }
 
 .section-2 {
@@ -265,10 +272,10 @@ footer {
     align-self: end;
     justify-self: center;
     position: relative;
-    left: 220px;
-    bottom: 120px;
+    left: 270px;
+    bottom: 190px;
   }
-  .section-1 input[type=button]:hover {
+  .buton:hover {
     padding: 15px;
   }
   .service {
