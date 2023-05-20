@@ -12,7 +12,7 @@
 }
 
 html, body {
-  height: 1300px;
+  height: 1500px;
 }
 
 body {
@@ -231,6 +231,11 @@ footer {
 .mapa iframe {
   width: 370px;
 }
+#img_ayuda{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 
 @media (min-width: 768px) {
   html, body {
@@ -289,6 +294,9 @@ footer {
     margin-top: 150px;
   }
   .mapa iframe {
+    width: 100%;
+  }
+  .mapa video{
     width: 100%;
   }
 }

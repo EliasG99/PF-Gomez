@@ -6,12 +6,12 @@
 }
 
 html, body {
-  height: 1300px;
+  height: 1500px;
 }
 
 body {
   background-image: linear-gradient(135deg, #FFF886 10%, #F072B6 100%);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -171,6 +171,17 @@ header {
   font-weight: bold;
 }
 
+.lista_viaje {
+  margin: 20px;
+  text-align: left;
+}
+.lista_viaje li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
 footer {
   background-image: linear-gradient(20deg, #FFF886 10%, #F072B6 100%);
   height: 400px;
@@ -293,7 +304,7 @@ footer {
 }
 
 html, body {
-  height: 1300px;
+  height: 1500px;
 }
 
 body {
@@ -529,6 +540,11 @@ footer {
   width: 370px;
 }
 
+#img_ayuda {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 768px) {
   html, body {
     height: 1600px;
@@ -586,6 +602,9 @@ footer {
     margin-top: 150px;
   }
   .mapa iframe {
+    width: 100%;
+  }
+  .mapa video {
     width: 100%;
   }
 }
