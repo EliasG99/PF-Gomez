@@ -115,3 +115,29 @@ p{
      }
 
 }
+
+.btn-form {
+    padding: 15px 90px;
+    background: $background-color;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: all 0.3s; /* Animación */
+    font-size: 17px;
+    font-weight: 300px;
+    color: white;
+  
+ &:hover {
+    transform: scale(1.2); /* Escalar el botón al pasar el cursor */
+   
+}
+ }
+
+.form-label{
+    font-weight: 500;
+    border-bottom: 1px solid rgb(21, 162, 232);
+}
+
+#img_ayuda{
+    width: 100%;
+}
